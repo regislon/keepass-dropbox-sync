@@ -1,5 +1,5 @@
-import dropbox
 import os
+import dropbox
 from pykeepass import PyKeePass
 
 
