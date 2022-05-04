@@ -3,7 +3,7 @@ import dropbox
 from pykeepass import PyKeePass
 
 
-ACCESS_TOKEN = 'sl.BG_NmK8IKMK-mIAkbZ_xh1AWAt42fdRjBYATVWGvE3sGtpce1DCLW-L3574YEyblsthljhX8ABVfwtFTGc6lBcHTXQs_4arNUvBp_8HjpPEIlazLa1659FJ7gnpiQqSDiubO_wYBlcJ3'
+ACCESS_TOKEN = '...'
 dbx = dropbox.Dropbox(ACCESS_TOKEN)
 
 def download_dropbox_file(dropbox_file_path : str,local_path :str) :
