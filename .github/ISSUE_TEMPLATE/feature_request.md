@@ -1,5 +1,5 @@
 ---
-name: ✨ Feature request
+name: 🆕 Feature request
 about: Suggest an idea for this project
 title: ''
 description: What is your feature request ?
