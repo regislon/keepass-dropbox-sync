@@ -4,12 +4,12 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "redame.md"), encoding="utf-8") as fh:
+with codecs.open(os.path.join(here, "readme.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
-DESCRIPTION = 'If like me you are using keepass with dropbox to use one DB across multiple devices, this tool is designed to get the conflict entries back to the main DB'
-LONG_DESCRIPTION = 'If like me you are using keepass with dropbox to use one DB across multiple devices, this tool is designed to get the conflict entries back to the main DB. When many users use keepass in the save time (or if one user forget to close it), conflict can arise and dropbox create a side db. This tool has been developed to merge the duplicate item to the main DB.'
+VERSION = "0.0.2"
+DESCRIPTION = "If like me you are using keepass with dropbox to use one DB across multiple devices, this tool is designed to get the conflict entries back to the main DB"
+LONG_DESCRIPTION = "If like me you are using keepass with dropbox to use one DB across multiple devices, this tool is designed to get the conflict entries back to the main DB. When many users use keepass in the save time (or if one user forget to close it), conflict can arise and dropbox create a side db. This tool has been developed to merge the duplicate item to the main DB."
 
 # Setting up
 setup(
@@ -21,8 +21,8 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['dynaconf', 'pykeepass', 'setuptools'],
-    keywords=['python'],
+    install_requires=["dynaconf", "pykeepass", "setuptools"],
+    keywords=["python"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
@@ -30,5 +30,5 @@ setup(
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
-    ]
+    ],
 )
