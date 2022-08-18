@@ -9,4 +9,4 @@ When many users use keepass in the save time (or if one user forget to close it)
 - Add external packages : ```pip install -r requirements.txt```
 
 ## Usage 
-Just run main.py
+Just run main.py  ..
